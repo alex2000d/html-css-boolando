@@ -20,7 +20,7 @@
     background-color: orangered;
 }
 
-.col-50{
+.col-51{
     width: 50%;
     background-color: orangered;
 }
@@ -100,4 +100,38 @@ main{
 
 .red{
     color: red;
+}
+
+/* footer */
+
+.container-footer{
+    width: 100%;
+}
+
+.col-50{
+    width: 50%;
+    background-color: black;
+    border: 1px solid white;
+    height: 100px;
+    
+}
+
+.white{
+    color: white;
+    padding: 10px;
+    margin-left: 140px;
+}
+.white2{
+    color: white;
+    padding: 10px;
+    
+}
+
+.my-440{
+    margin-left: 440px;
+}
+
+.content-footer-dx{
+    text-align: center;
+    color: white;
 }
