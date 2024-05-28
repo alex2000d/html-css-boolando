@@ -59,9 +59,11 @@ main{
 }
 
 .content-main{
-    background-color: red;
-    border: 1px solid black;
-    height: 300px;
+ 
     margin: 10px;
+}
+
+.content-main img{
+    width: 100%;
 }
 
