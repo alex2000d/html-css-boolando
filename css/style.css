@@ -45,7 +45,7 @@ ul li{
 /* main */
 
 main{
-    margin: 20px;
+    margin: 25px;
 }
 
 
@@ -59,11 +59,45 @@ main{
 }
 
 .content-main{
- 
     margin: 10px;
+    position: relative;
 }
 
 .content-main img{
     width: 100%;
 }
 
+.heart{
+    position: absolute;
+    top: 10px;
+    right: 0;
+    background-color: white;
+    padding: 10px;
+}
+
+.bg-green{
+    background-color: green;
+    
+    margin: 5px;
+}
+
+.bg-red{
+    background-color: red;
+    
+    margin: 5px;
+}
+
+.label{
+    color: white;
+}
+
+.labels{
+    position: absolute;
+    display: flex;
+    left: 0;
+    bottom: 90px;
+}
+
+.red{
+    color: red;
+}
