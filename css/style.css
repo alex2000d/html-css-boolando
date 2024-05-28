@@ -18,15 +18,11 @@
 .col-25{
     width: 25%;
     background-color: orangered;
-    height: 150px;
-    border: 1px solid black;
 }
 
 .col-50{
     width: 50%;
     background-color: orangered;
-    height: 150px;
-    border: 1px solid black;
 }
 
 ul li{
@@ -43,7 +39,29 @@ ul li{
 
 .content{
     text-align: center;
-    padding-top: 10px;
+    margin: 10px;
+}
+
+/* main */
+
+main{
+    margin: 20px;
+}
+
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.col-33{
+    width: calc(100% / 3);
+}
+
+.content-main{
+    background-color: red;
+    border: 1px solid black;
+    height: 300px;
     margin: 10px;
 }
 
