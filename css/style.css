@@ -3,3 +3,47 @@
     padding: 0%;
     box-sizing: border-box;
 }
+
+/* header */
+
+.container{
+    width: 100%;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-25{
+    width: 25%;
+    background-color: orangered;
+    height: 150px;
+    border: 1px solid black;
+}
+
+.col-50{
+    width: 50%;
+    background-color: orangered;
+    height: 150px;
+    border: 1px solid black;
+}
+
+ul li{
+    display: inline-block;
+    list-style-type: none;
+    color: white;
+    margin: 10px;
+}
+
+.content img{
+    background-size: cover;
+    width: 30%;
+}
+
+.content{
+    text-align: center;
+    padding-top: 10px;
+    margin: 10px;
+}
+
