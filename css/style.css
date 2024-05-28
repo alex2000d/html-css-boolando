@@ -73,7 +73,29 @@ main{
     right: 0;
     background-color: white;
     padding: 10px;
+    cursor: pointer;
 }
+
+.heart:hover{
+    color: red;
+}
+
+.d-block{
+    display: block;
+}
+
+.d-none{
+    display: none;
+}
+
+.content-main:hover .d-block{
+    display: none;
+}
+
+.content-main:hover .d-none{
+    display: block;
+}
+
 
 .bg-green{
     background-color: green;
